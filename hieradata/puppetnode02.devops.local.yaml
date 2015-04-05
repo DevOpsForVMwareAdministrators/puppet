@@ -1,0 +1,15 @@
+---
+classes:
+  - mysql::server
+
+mysql::server::root_password: 'Puppetize1234'
+#mysql::server::root_password: '$6$Puppetize$SP7fv.FiongcdrWS1wPAJ5FWf.c.rgUJDMxyN1CaBFxhHCF67wkMltvxjg9XVyjqHGcT8my4FCk3WjqABTpp20'
+
+mysqlrootpasswd:
+  - '$6$Puppetize$SP7fv.FiongcdrWS1wPAJ5FWf.c.rgUJDMxyN1CaBFxhHCF67wkMltvxjg9XVyjqHGcT8my4FCk3WjqABTpp20'
+
+mysqlusers:
+  admin: '$6$Puppetize$cFI/DzT2hjKtttcrqN2CHDpBjtm0Hf.kcmp748D8HZLb.rT1n4H9mtbCvdoUF/LYbNeV1I89TbztFUmW8eAkY/'
+  backup: '$6$Puppetize$1PHPwqlS2Yd9o4I74KqkDw.0./pO3fKCHIhz5vbV6A8ROY36DGSP7Hu6z9cU.L8YbPUOdw8zWU9XFd3TonuiO.'
+  demo: '$6$Puppetize$GI0S8pc9x.UOvz1jG2cUD6oQBDZ.weI5IPnZnY4jF8xDcPmHp0OEhKA.smI1wD6i7nCodbT9KKvahcQF4qkVL.'
+  foo: '$6$Puppetize$pY950gFQb9.QXB80sOtNfWlF.RZ4v2CD.tvSEm4zAvziT6AZPGRUja6.2nkLHOPCfrYVHjHWw7iPo3uQtNFCn.'

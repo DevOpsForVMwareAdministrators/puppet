@@ -1,0 +1,15 @@
+---
+webserver:
+  - 'httpd'
+confpath:
+  - '/etc/httpd/conf/httpd.conf'
+htmlpath:
+  - '/var/www/html/index.html'
+phpserver:
+  - 'php'
+phpmysql:
+  - 'php-mysql'
+phppath:
+  - '/var/www/html/index.php'
+servicepath:
+  - '/sbin/service'

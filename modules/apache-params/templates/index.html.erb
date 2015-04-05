@@ -1,0 +1,11 @@
+<html><body><h1>Puppet Rocks!</h1>
+<p>This is the default web page for
+<%# Print the correct Operating System name with the right article i.e. "a" vs "an"%>
+<% if @operatingsystem[0].chr =~/[AEIOU]/ %>
+  <%= "an" %>
+<% else %>
+  <%= "a" %>
+<% end %>
+<b><%= @operatingsystem %></b> server.</p>
+<p>The web server software is running and content has been added by your <b>Puppet</b> code.</p>
+</body></html>
