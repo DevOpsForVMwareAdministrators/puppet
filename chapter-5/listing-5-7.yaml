@@ -1,0 +1,21 @@
+# Debian.yaml
+---
+webserver: 
+  - 'apache2'
+confpath:
+  - '/etc/apache2/apache2.conf'
+htmlpath:
+  - '/var/www/index.html'
+servicepath:
+  - '/usr/sbin/service'
+
+# RedHat.yaml
+---
+webserver:
+  - 'httpd'
+confpath:
+  - '/etc/httpd/conf/httpd.conf'
+htmlpath:
+  - '/var/www/html/index.html'
+servicepath:
+  - '/sbin/service'

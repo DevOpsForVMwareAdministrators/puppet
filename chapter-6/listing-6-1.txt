@@ -1,0 +1,5 @@
+:default:
+  vsphere_username: administrator
+  vsphere_password: Puppetize1234
+  vsphere_server: vCenter.devops.local
+  vsphere_expected_pubkey_hash: 118d38f5267ca92948b9a8c9fdb8c64decf67530d4a

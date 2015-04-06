@@ -1,0 +1,33 @@
+# Debian.yaml
+---
+webserver: 
+  - 'apache2'
+confpath:
+  - '/etc/apache2/apache2.conf'
+htmlpath:
+  - '/var/www/index.html'
+phpserver:
+  - 'php5'
+phpmysql:
+  - 'php5-mysql'
+phppath:
+  - '/var/www/index.php'
+servicepath:
+  - '/usr/sbin/service'
+
+# RedHat.yaml
+---
+webserver:
+  - 'httpd'
+confpath:
+  - '/etc/httpd/conf/httpd.conf'
+htmlpath:
+  - '/var/www/html/index.html'
+phpserver:
+  - 'php'
+phpmysql:
+  - 'php-mysql'
+phppath:
+  - '/var/www/html/index.php'
+servicepath:
+  - '/sbin/service'

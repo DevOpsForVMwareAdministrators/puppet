@@ -1,0 +1,18 @@
+node_vmware list | grep true -B 7
+
+### Output
+#/Datacenters/VMTrooperHQ/vm/centos-6-x64-template
+#  powerstate: poweredOff
+#  name:       centos-6-x64-template
+#  hostname:   --------
+#  instanceid: 5005ed33-f57e-6106-36a7-b2ee1626bc4c
+#  ipaddress:  ---.---.---.---
+#  template:   true
+
+#/Datacenters/VMTrooperHQ/vm/precise-template
+#  powerstate: poweredOff
+#  name:       precise-template
+#  hostname:   --------
+#  instanceid: 50055b0a-b56b-6790-3295-fbc31e9608ca
+#  ipaddress:  ---.---.---.---
+#  template:   true
